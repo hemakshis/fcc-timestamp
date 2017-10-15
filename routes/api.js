@@ -10,15 +10,15 @@ router.get('/:query', function(req, res){
   var natural = null;
   tmpDate = date.split(' ');
   console.log(tmpDate);
-  if(tmpDate.length === 1) {
+  if(tmpDate.length === 1 && parseInt(date) >= 0) {
     unix = date;
-    natural = moment.unix(unix).format('Do MMMM, YYYY')
+    natural = moment.unix(unix).format('Do MMMM, YYYY');
   } else if(tmpDate.length === 3) {
     natural = date;
     unix = moment(date, 'Do MMMM, YYYY').format('X');
   } else {
-    natural = "Invalid Date";
-    unix = "Invalid Date";
+    natural = null;
+    unix = null;
   }
   var result = {
     unix: unix,
