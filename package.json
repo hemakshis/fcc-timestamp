@@ -4,7 +4,7 @@
   "description": "A simple timestamp microservice api that returns unix and natural time",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "author": "Hemakshi Sachdev",
   "license": "ISC",
