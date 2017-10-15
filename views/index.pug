@@ -1,0 +1,27 @@
+doctype html
+html
+  head
+    title Timestamp Microservice
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+  body
+    .container
+      h1.text-center FCC API Basejump: Timestamp Microservice
+      .jumbotron
+        h4 User Stories:
+        blockquote
+          ul
+            | 1) I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2018).
+          ul
+            | 2) If it does, it returns both the Unix timestamp and the natural language form of that date.
+          ul
+            | 3) If it does not contain a date or Unix timestamp, it returns null for those properties.
+        h3 Example Usage
+        code https://YOUR-URL-PLEASE-CHANGE-IT.com/api/14th%20October,%202017
+        br
+        code https://YOUR-URL-PLEASE-CHANGE-IT.com/api/1507939200
+        h3 Example Output
+        code {&quot;unix&quot;: 1507939200, &quot;natural&quot;: &quot;October 14, 2017&quot;}
+    footer.text-center &copy; Copyright Hemakshi Sachdev, 2017
+      
+
+        

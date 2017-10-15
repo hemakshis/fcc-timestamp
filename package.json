@@ -1,0 +1,18 @@
+{
+  "name": "timestampmicroservice",
+  "version": "1.0.0",
+  "description": "A simple timestamp microservice api that returns unix and natural time",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hemakshi Sachdev",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "moment": "^2.19.1",
+    "nodemon": "^1.12.1",
+    "pug": "^2.0.0-rc.4"
+  }
+}
