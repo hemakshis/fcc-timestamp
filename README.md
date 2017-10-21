@@ -5,9 +5,9 @@
 > 3. If it does not contain a date or Unix timestamp, it returns null for those properties.
 
 ### Example Usage
-`https://fcc-timestamp-hemakshis.herokuapp.com/api/15th%20October,%202017`
+`https://timestamp-hemakshis.herokuapp.com/api/15th%20October,%202017`
 
-`https://fcc-timestamp-hemakshis.herokuapp.com/api/1508025600`
+`https://timestamp-hemakshis.herokuapp.com/api/1508025600`
 
 ### Example Output
 `{"unix": 1508025600, "natural": "15th October, 2017"}`
