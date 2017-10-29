@@ -10,4 +10,4 @@
 `https://timestamp-hemakshis.herokuapp.com/api/1508025600`
 
 ### Example Output
-`{"unix": 1508025600, "natural": "15th October, 2017"}`
+`{"unix": "1508025600", "natural": "15th October, 2017"}`
