@@ -7,6 +7,15 @@ html
     title Timestamp Microservice
     link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css', integrity='sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb', crossorigin='anonymous')
     link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
+    style.
+      footer ul li {
+        font-size: 24px;
+        display: inline-block;
+        padding-right: 3.5%;
+      }
+      .fa-code, .fa-heart {
+        -webkit-text-stroke: 1px;
+      }
   body
     .container
       h1.text-center FCC API Basejump: Timestamp Microservice
@@ -24,21 +33,22 @@ html
         br
         code https://timestamp-hemakshis.herokuapp.com/api/1508025600
         h3 Example Output
-        code {&quot;unix&quot;: &quot;1508025600&quot;, &quot;natural&quot;: &quot;15th October, 2017&quot;}
+        code {"unix": "1508025600", "natural": "15th October, 2017"}
     footer.text-center
-      i.fa.fa-code.text-dark
-      |  By Hemakshi Sachdev, 2017 with 
+      i.fa.fa-code.text-dark.fa-lg
+      |  with 
       i.fa.fa-heart.text-danger
-    ul.text-center
-      li(style='display:inline-block;padding:1% 1.5% 1% 0%;')
-        a(href='https://github.com/hemakshis')
-          i.fa.fa-github
-      li(style='display:inline-block;padding:1% 1.5% 1% 0%;')
-        a(href='https://www.freecodecamp.org/hemakshis')
-          i.fa.fa-free-code-camp
-      li(style='display:inline-block;padding:1% 1.5% 1% 0%;')
-        a(href='https://www.linkedin.com/in/hemakshis')
-          i.fa.fa-linkedin
+      |  By Hemakshi Sachdev, 2017
+      ul.text-center
+        li
+          a(href='https://github.com/hemakshis', title='GitHub')
+            i.fa.fa-github
+        li
+          a(href='https://www.freecodecamp.org/hemakshis', title='FreeCodeCamp')
+            i.fa.fa-free-code-camp
+        li
+          a(href='https://www.linkedin.com/in/hemakshis', title='LinkedIn')
+            i.fa.fa-linkedin
       
 
         
